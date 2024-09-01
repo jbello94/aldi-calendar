@@ -97,20 +97,16 @@
                 const today = new Date();
                 const currentMonth = today.getMonth();
                 const currentYear = today.getFullYear();
-
                 const calendarsDiv = document.getElementById('calendars');
 
-                // Mes actual
-                calendarsDiv.innerHTML += `<h2>${today.toLocaleString('default', { month: 'long' })} ${currentYear}</h2>`;
-                calendarsDiv.innerHTML += createCalendar(currentYear, currentMonth);
+                for (let i = 0; i < 5; i++) {
+                    const month = (currentMonth + i) % 12;
+                    const year = currentYear + Math.floor((currentMonth + i) / 12);
+                    const monthName = new Date(year, month).toLocaleString('default', { month: 'long' });
 
-                // Mes siguiente
-                const nextMonthDate = new Date(currentYear, currentMonth + 1);
-                const nextMonth = nextMonthDate.getMonth();
-                const nextYear = nextMonthDate.getFullYear();
-
-                calendarsDiv.innerHTML += `<h2>${nextMonthDate.toLocaleString('default', { month: 'long' })} ${nextYear}</h2>`;
-                calendarsDiv.innerHTML += createCalendar(nextYear, nextMonth);
+                    calendarsDiv.innerHTML += `<h2>${monthName} ${year}</h2>`;
+                    calendarsDiv.innerHTML += createCalendar(year, month);
+                }
             }
 
             showCalendars();
