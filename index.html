@@ -49,7 +49,7 @@
             const lastDay = new Date(year, month + 1, 0);
             const daysInMonth = lastDay.getDate();
             
-            let calendar = '<table><tr><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th><th>Sábado</th><th>Domingo</th></tr><tr>';
+            let calendar = '<table><tr><th>Lun</th><th>Mar</th><th>Mié</th><th>Jue</th><th>Vie</th><th>Sáb</th><th>Dom</th></tr><tr>';
             let dayOfWeek = firstDay.getDay() === 0 ? 7 : firstDay.getDay();
             
             // Añadir celdas vacías al principio si el mes no empieza un lunes
