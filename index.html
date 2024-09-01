@@ -45,7 +45,7 @@
             const startDate = new Date('2024-09-02');
             const restDays = [
                 [4, 5], // Jueves y viernes de la primera semana
-                [1, 6, 7], // Lunes, sábado y domingo de la segunda semana
+                [1, 6, 0], // Lunes, sábado y domingo de la segunda semana (0 = Domingo)
                 [2, 4] // Martes y jueves de la tercera semana
             ];
 
@@ -63,7 +63,8 @@
 
                 for (let day = 1; day <= daysInMonth; day++) {
                     const currentDate = new Date(year, month, day);
-                    const weekNumber = Math.floor((getDayDifference(startDate, currentDate)) / 7) % 3;
+                    const daysSinceStart = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
+                    const weekNumber = Math.floor(daysSinceStart / 7) % 3;
                     const dayOfWeek = currentDate.getDay();
 
                     const isRestDay = restDays[weekNumber].includes(dayOfWeek);
@@ -84,11 +85,6 @@
 
                 calendar += '</tr></table>';
                 return calendar;
-            }
-
-            function getDayDifference(start, end) {
-                const msInDay = 24 * 60 * 60 * 1000;
-                return Math.floor((end - start) / msInDay);
             }
 
             function showCalendars() {
