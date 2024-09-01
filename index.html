@@ -67,6 +67,10 @@
                     const weekNumber = Math.floor(daysSinceStart / 7) % 3;
                     const dayOfWeek = currentDate.getDay();
 
+                    if (weekNumber < 0 || weekNumber > 2) {
+                        throw new Error(`weekNumber fuera de rango: ${weekNumber}`);
+                    }
+
                     const isRestDay = restDays[weekNumber].includes(dayOfWeek);
                     const className = isRestDay ? 'rest' : 'work';
 
