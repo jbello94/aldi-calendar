@@ -64,7 +64,9 @@
                 for (let day = 1; day <= daysInMonth; day++) {
                     const currentDate = new Date(year, month, day);
                     const daysSinceStart = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
-                    const weekNumber = Math.floor(daysSinceStart / 7) % 3;
+                    
+                    // Ajuste del cálculo de weekNumber
+                    const weekNumber = (Math.floor(daysSinceStart / 7) % 3 + 3) % 3;
                     const dayOfWeek = currentDate.getDay();
 
                     if (weekNumber < 0 || weekNumber > 2) {
