@@ -28,89 +28,95 @@
         .rest {
             background-color: #ffcdd2;
         }
+        .error {
+            color: red;
+            font-weight: bold;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>Calendario de Trabajo</h1>
     <div id="calendars"></div>
+    <div id="error-message" class="error"></div>
 
     <script>
-        // Configuración inicial
-        const startDate = new Date('2024-09-02');
-        const restDays = [
-            [4, 5], // Jueves y viernes de la primera semana
-            [1, 6, 7], // Lunes, sábado y domingo de la segunda semana
-            [2, 4] // Martes y jueves de la tercera semana
-        ];
+        try {
+            const startDate = new Date('2024-09-02');
+            const restDays = [
+                [4, 5], // Jueves y viernes de la primera semana
+                [1, 6, 7], // Lunes, sábado y domingo de la segunda semana
+                [2, 4] // Martes y jueves de la tercera semana
+            ];
 
-        // Función para crear el calendario de un mes
-        function createCalendar(year, month) {
-            const firstDay = new Date(year, month, 1);
-            const lastDay = new Date(year, month + 1, 0);
-            const daysInMonth = lastDay.getDate();
-            
-            let calendar = '<table><tr><th>Lun</th><th>Mar</th><th>Mié</th><th>Jue</th><th>Vie</th><th>Sáb</th><th>Dom</th></tr><tr>';
-            let dayOfWeek = firstDay.getDay() === 0 ? 7 : firstDay.getDay();
-            
-            // Añadir celdas vacías al principio si el mes no empieza un lunes
-            for (let i = 1; i < dayOfWeek; i++) {
-                calendar += '<td></td>';
-            }
-            
-            for (let day = 1; day <= daysInMonth; day++) {
-                const currentDate = new Date(year, month, day);
-                const weekNumber = Math.floor((getDayDifference(startDate, currentDate)) / 7) % 3;
-                const dayOfWeek = currentDate.getDay();
+            function createCalendar(year, month) {
+                const firstDay = new Date(year, month, 1);
+                const lastDay = new Date(year, month + 1, 0);
+                const daysInMonth = lastDay.getDate();
 
-                const isRestDay = restDays[weekNumber].includes(dayOfWeek);
-                const className = isRestDay ? 'rest' : 'work';
+                let calendar = '<table><tr><th>Lun</th><th>Mar</th><th>Mié</th><th>Jue</th><th>Vie</th><th>Sáb</th><th>Dom</th></tr><tr>';
+                let dayOfWeek = firstDay.getDay() === 0 ? 7 : firstDay.getDay();
 
-                calendar += `<td class="${className}">${day}</td>`;
-                
-                // Iniciar una nueva fila cada domingo
-                if (currentDate.getDay() === 0 && day !== daysInMonth) {
-                    calendar += '</tr><tr>';
-                }
-            }
-
-            // Añadir celdas vacías al final si el mes no termina un domingo
-            if (lastDay.getDay() !== 0) {
-                for (let i = lastDay.getDay(); i < 7; i++) {
+                for (let i = 1; i < dayOfWeek; i++) {
                     calendar += '<td></td>';
                 }
+
+                for (let day = 1; day <= daysInMonth; day++) {
+                    const currentDate = new Date(year, month, day);
+                    const weekNumber = Math.floor((getDayDifference(startDate, currentDate)) / 7) % 3;
+                    const dayOfWeek = currentDate.getDay();
+
+                    const isRestDay = restDays[weekNumber].includes(dayOfWeek);
+                    const className = isRestDay ? 'rest' : 'work';
+
+                    calendar += `<td class="${className}">${day}</td>`;
+
+                    if (currentDate.getDay() === 0 && day !== daysInMonth) {
+                        calendar += '</tr><tr>';
+                    }
+                }
+
+                if (lastDay.getDay() !== 0) {
+                    for (let i = lastDay.getDay(); i < 7; i++) {
+                        calendar += '<td></td>';
+                    }
+                }
+
+                calendar += '</tr></table>';
+                return calendar;
             }
 
-            calendar += '</tr></table>';
-            return calendar;
-        }
+            function getDayDifference(start, end) {
+                const msInDay = 24 * 60 * 60 * 1000;
+                return Math.floor((end - start) / msInDay);
+            }
 
-        // Función para obtener la diferencia en días entre dos fechas
-        function getDayDifference(start, end) {
-            const msInDay = 24 * 60 * 60 * 1000;
-            return Math.floor((end - start) / msInDay);
-        }
+            function showCalendars() {
+                const today = new Date();
+                const currentMonth = today.getMonth();
+                const currentYear = today.getFullYear();
 
-        // Mostrar el calendario para el mes actual y el siguiente
-        function showCalendars() {
-            const today = new Date();
-            const currentMonth = today.getMonth();
-            const currentYear = today.getFullYear();
-            
-            const calendarsDiv = document.getElementById('calendars');
-            
-            calendarsDiv.innerHTML += `<h2>${today.toLocaleString('default', { month: 'long' })} ${currentYear}</h2>`;
-            calendarsDiv.innerHTML += createCalendar(currentYear, currentMonth);
-            
-            const nextMonthDate = new Date(currentYear, currentMonth + 1);
-            const nextMonth = nextMonthDate.getMonth();
-            const nextYear = nextMonthDate.getFullYear();
-            
-            calendarsDiv.innerHTML += `<h2>${nextMonthDate.toLocaleString('default', { month: 'long' })} ${nextYear}</h2>`;
-            calendarsDiv.innerHTML += createCalendar(nextYear, nextMonth);
-        }
+                const calendarsDiv = document.getElementById('calendars');
 
-        // Ejecutar la función para mostrar los calendarios al cargar la página
-        showCalendars();
+                // Mes actual
+                calendarsDiv.innerHTML += `<h2>${today.toLocaleString('default', { month: 'long' })} ${currentYear}</h2>`;
+                calendarsDiv.innerHTML += createCalendar(currentYear, currentMonth);
+
+                // Mes siguiente
+                const nextMonthDate = new Date(currentYear, currentMonth + 1);
+                const nextMonth = nextMonthDate.getMonth();
+                const nextYear = nextMonthDate.getFullYear();
+
+                calendarsDiv.innerHTML += `<h2>${nextMonthDate.toLocaleString('default', { month: 'long' })} ${nextYear}</h2>`;
+                calendarsDiv.innerHTML += createCalendar(nextYear, nextMonth);
+            }
+
+            showCalendars();
+
+        } catch (error) {
+            const errorMessageDiv = document.getElementById('error-message');
+            errorMessageDiv.textContent = `Error al generar el calendario: ${error.message}`;
+        }
     </script>
 </body>
 </html>
