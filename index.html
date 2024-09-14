@@ -29,6 +29,10 @@
         .rest {
             background-color: #ffcdd2;
         }
+        .current-day {
+            background-color: #ffeb3b; /* Color de fondo diferente */
+            font-weight: bold; /* Texto en negrita */
+        }
         .error {
             color: red;
             font-weight: bold;
@@ -59,8 +63,10 @@
             const restDays = [
                 [2, 3], // Jueves y viernes de la primera semana
                 [1, 6, 0], // Lunes, sábado y domingo de la segunda semana (0 = Domingo)
-                [4,5] // Martes y miércoles de la tercera semana
+                [4, 5] // Martes y miércoles de la tercera semana
             ];
+
+            const today = new Date(); // Fecha actual
 
             function createCalendar(year, month) {
                 const firstDay = new Date(year, month, 1);
@@ -76,20 +82,18 @@
 
                 for (let day = 1; day <= daysInMonth; day++) {
                     const currentDate = new Date(year, month, day);
-                    const daysSinceStart = Math.floor((currentDate - startDate) / (24 *
+                    const daysSinceStart = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
 
- 60 * 60 * 1000));
-                    
-                    // Ajuste del cálculo de weekNumber
                     const weekNumber = (Math.floor(daysSinceStart / 7) % 3 + 3) % 3;
                     const dayOfWeek = currentDate.getDay();
-
-                    if (weekNumber < 0 || weekNumber > 2) {
-                        throw new Error(`weekNumber fuera de rango: ${weekNumber}`);
-                    }
-
                     const isRestDay = restDays[weekNumber].includes(dayOfWeek);
-                    const className = isRestDay ? 'rest' : 'work';
+
+                    let className = isRestDay ? 'rest' : 'work';
+
+                    // Agregar clase para el día actual
+                    if (currentDate.toDateString() === today.toDateString()) {
+                        className += ' current-day';
+                    }
 
                     calendar += `<td class="${className}">${day}</td>`;
 
@@ -114,7 +118,7 @@
                 const currentYear = today.getFullYear();
                 const calendarsDiv = document.getElementById('calendars');
 
-                for (let i = 0; i < 5; i++) {
+                for (let i = 0; i < 12; i++) { // Cambiado a 12 meses
                     const month = (currentMonth + i) % 12;
                     const year = currentYear + Math.floor((currentMonth + i) / 12);
                     const monthName = new Date(year, month).toLocaleString('default', { month: 'long' });
