@@ -1,0 +1,2213 @@
+{
+  "siteId": 1002319,
+  "siteName": "477 - W Dry Sel",
+  "siteLongName": "RPB - W Dry Sel",
+  "isFww": false,
+  "day": "2024-10-07",
+  "dayShifts": [
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1163182,
+        "employeeNameData": {
+          "loginName": "397583",
+          "firstName": "Anibal",
+          "lastName": "Valentin",
+          "middleName": null,
+          "nickName": "Valentin",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000123,
+        "jobName": "PT Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309587,
+        "employeeNameData": {
+          "loginName": "539548",
+          "firstName": "Dana",
+          "lastName": "Ulysse",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000123,
+        "jobName": "PT Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1306405,
+        "employeeNameData": {
+          "loginName": "536327",
+          "firstName": "Nick",
+          "lastName": "Segura Chanca",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1307135,
+        "employeeNameData": {
+          "loginName": "537135",
+          "firstName": "Maximo",
+          "lastName": "Segura Chanca",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1103850,
+        "employeeNameData": {
+          "loginName": "272992",
+          "firstName": "Avihail",
+          "lastName": "Tovilla",
+          "middleName": "G",
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1110771,
+        "employeeNameData": {
+          "loginName": "280265",
+          "firstName": "Emondo",
+          "lastName": "Deroche",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1115845,
+        "employeeNameData": {
+          "loginName": "285354",
+          "firstName": "Duguerre",
+          "lastName": "Estime",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1162342,
+        "employeeNameData": {
+          "loginName": "396701",
+          "firstName": "Manuel",
+          "lastName": "Gonzalez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1201807,
+        "employeeNameData": {
+          "loginName": "432353",
+          "firstName": "Gabriel",
+          "lastName": "Gonzalez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1210106,
+        "employeeNameData": {
+          "loginName": "440733",
+          "firstName": "Byron",
+          "lastName": "Barrett",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1211168,
+        "employeeNameData": {
+          "loginName": "441698",
+          "firstName": "Arince",
+          "lastName": "pierre louis",
+          "middleName": null,
+          "nickName": "Ace",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1223735,
+        "employeeNameData": {
+          "loginName": "453611",
+          "firstName": "Jamal",
+          "lastName": "Lazarre",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1240151,
+        "employeeNameData": {
+          "loginName": "470365",
+          "firstName": "Cidoles",
+          "lastName": "Deliazard",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1254692,
+        "employeeNameData": {
+          "loginName": "484775",
+          "firstName": "Joshua",
+          "lastName": "Davenport",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1255185,
+        "employeeNameData": {
+          "loginName": "485130",
+          "firstName": "Anthony",
+          "lastName": "Rose",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1256975,
+        "employeeNameData": {
+          "loginName": "487047",
+          "firstName": "Francis",
+          "lastName": "Agyemang",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1260304,
+        "employeeNameData": {
+          "loginName": "490314",
+          "firstName": "Daniel",
+          "lastName": "Castel",
+          "middleName": null,
+          "nickName": "Danny",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1262222,
+        "employeeNameData": {
+          "loginName": "492219",
+          "firstName": "Roderick",
+          "lastName": "Fayson",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1272171,
+        "employeeNameData": {
+          "loginName": "502178",
+          "firstName": "Pablo",
+          "lastName": "Beckard",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1275368,
+        "employeeNameData": {
+          "loginName": "505433",
+          "firstName": "Israel",
+          "lastName": "Gutierrez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1282028,
+        "employeeNameData": {
+          "loginName": "512156",
+          "firstName": "Duvane",
+          "lastName": "Anderson",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1283623,
+        "employeeNameData": {
+          "loginName": "513765",
+          "firstName": "Wroth",
+          "lastName": "Jean",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1290397,
+        "employeeNameData": {
+          "loginName": "520604",
+          "firstName": "Juan Carlos",
+          "lastName": "Lebreault",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1292438,
+        "employeeNameData": {
+          "loginName": "522317",
+          "firstName": "Wideline",
+          "lastName": "Delice",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1292653,
+        "employeeNameData": {
+          "loginName": "522576",
+          "firstName": "Maria",
+          "lastName": "Capaz Rasal",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1292669,
+        "employeeNameData": {
+          "loginName": "522555",
+          "firstName": "Quincy",
+          "lastName": "Joseph",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1292676,
+        "employeeNameData": {
+          "loginName": "522560",
+          "firstName": "Andre",
+          "lastName": "Manning",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1293285,
+        "employeeNameData": {
+          "loginName": "523114",
+          "firstName": "Trayvon",
+          "lastName": "Akins",
+          "middleName": null,
+          "nickName": "Tray",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1293771,
+        "employeeNameData": {
+          "loginName": "523634",
+          "firstName": "Yefri",
+          "lastName": "Feliz",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1294019,
+        "employeeNameData": {
+          "loginName": "523934",
+          "firstName": "Jesus",
+          "lastName": "Aponte",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1294021,
+        "employeeNameData": {
+          "loginName": "523931",
+          "firstName": "Nakia",
+          "lastName": "Thawe",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1294659,
+        "employeeNameData": {
+          "loginName": "524473",
+          "firstName": "Nelson",
+          "lastName": "Cruz",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1294718,
+        "employeeNameData": {
+          "loginName": "524547",
+          "firstName": "Junior",
+          "lastName": "Laguerre",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1295928,
+        "employeeNameData": {
+          "loginName": "525900",
+          "firstName": "Celor",
+          "lastName": "Raymond",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1296689,
+        "employeeNameData": {
+          "loginName": "526655",
+          "firstName": "Jose",
+          "lastName": "Hernandez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1299193,
+        "employeeNameData": {
+          "loginName": "529112",
+          "firstName": "Deandra",
+          "lastName": "Bloschichak",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1300227,
+        "employeeNameData": {
+          "loginName": "530160",
+          "firstName": "Martavius",
+          "lastName": "Williams",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1300740,
+        "employeeNameData": {
+          "loginName": "530630",
+          "firstName": "Luciano",
+          "lastName": "Amory",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1302456,
+        "employeeNameData": {
+          "loginName": "532420",
+          "firstName": "Juan",
+          "lastName": "Segovia",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1303757,
+        "employeeNameData": {
+          "loginName": "533704",
+          "firstName": "Du-Jay",
+          "lastName": "Cheese-Clacken",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1303809,
+        "employeeNameData": {
+          "loginName": "533713",
+          "firstName": "LaGrant",
+          "lastName": "Perry",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1308432,
+        "employeeNameData": {
+          "loginName": "538379",
+          "firstName": "Williamson",
+          "lastName": "Napoleon",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1308484,
+        "employeeNameData": {
+          "loginName": "538378",
+          "firstName": "Jounelson",
+          "lastName": "Lamy",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1308948,
+        "employeeNameData": {
+          "loginName": "538898",
+          "firstName": "Sonel Damus",
+          "lastName": "Olibrice",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309139,
+        "employeeNameData": {
+          "loginName": "539164",
+          "firstName": "Caesar",
+          "lastName": "Cuervo",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309333,
+        "employeeNameData": {
+          "loginName": "539348",
+          "firstName": "Luis",
+          "lastName": "Aguirre",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309351,
+        "employeeNameData": {
+          "loginName": "539346",
+          "firstName": "Evens",
+          "lastName": "Dol",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309589,
+        "employeeNameData": {
+          "loginName": "539535",
+          "firstName": "Steve",
+          "lastName": "Finlayson",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309642,
+        "employeeNameData": {
+          "loginName": "539571",
+          "firstName": "Eduardo",
+          "lastName": "Reinoso",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309650,
+        "employeeNameData": {
+          "loginName": "539546",
+          "firstName": "David",
+          "lastName": "Reigosa",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309959,
+        "employeeNameData": {
+          "loginName": "539843",
+          "firstName": "William",
+          "lastName": "Vargas",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310393,
+        "employeeNameData": {
+          "loginName": "540313",
+          "firstName": "Antonio",
+          "lastName": "Garrett",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310605,
+        "employeeNameData": {
+          "loginName": "540605",
+          "firstName": "Anthony",
+          "lastName": "Rotger",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310656,
+        "employeeNameData": {
+          "loginName": "540608",
+          "firstName": "Esterling",
+          "lastName": "Jean-Louis",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310705,
+        "employeeNameData": {
+          "loginName": "540613",
+          "firstName": "Joel",
+          "lastName": "Sirner",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310790,
+        "employeeNameData": {
+          "loginName": "540730",
+          "firstName": "Jorge",
+          "lastName": "Bello Brito",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310937,
+        "employeeNameData": {
+          "loginName": "541041",
+          "firstName": "Charles",
+          "lastName": "Toribio Guzman",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311024,
+        "employeeNameData": {
+          "loginName": "541408",
+          "firstName": "Felipe",
+          "lastName": "Leite",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311126,
+        "employeeNameData": {
+          "loginName": "541396",
+          "firstName": "Dalens",
+          "lastName": "Polidort",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311207,
+        "employeeNameData": {
+          "loginName": "541403",
+          "firstName": "Ainsley",
+          "lastName": "Cunningham",
+          "middleName": null,
+          "nickName": "Sham",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311260,
+        "employeeNameData": {
+          "loginName": "541409",
+          "firstName": "David",
+          "lastName": "Ferrer",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311586,
+        "employeeNameData": {
+          "loginName": "541654",
+          "firstName": "Kenson",
+          "lastName": "Barthelemy",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311676,
+        "employeeNameData": {
+          "loginName": "541655",
+          "firstName": "Nixon",
+          "lastName": "Frederic",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311723,
+        "employeeNameData": {
+          "loginName": "541656",
+          "firstName": "Aaron",
+          "lastName": "Pierre",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311771,
+        "employeeNameData": {
+          "loginName": "541652",
+          "firstName": "Allam",
+          "lastName": "Gonzalez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311791,
+        "employeeNameData": {
+          "loginName": "540986",
+          "firstName": "Chrisdelle",
+          "lastName": "Calzadilla Mejicano",
+          "middleName": null,
+          "nickName": "Chris",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311863,
+        "employeeNameData": {
+          "loginName": "541177",
+          "firstName": "Justin",
+          "lastName": "Stevens",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1009294,
+        "employeeNameData": {
+          "loginName": "113586",
+          "firstName": "Tara",
+          "lastName": "Nylund",
+          "middleName": "B",
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1287008,
+        "employeeNameData": {
+          "loginName": "517224",
+          "firstName": "Dieudonise",
+          "lastName": "Thelismond",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1287689,
+        "employeeNameData": {
+          "loginName": "517886",
+          "firstName": "Albert",
+          "lastName": "Acuna",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1288046,
+        "employeeNameData": {
+          "loginName": "518241",
+          "firstName": "Louckendy",
+          "lastName": "Barthelemy",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1288786,
+        "employeeNameData": {
+          "loginName": "519002",
+          "firstName": "Heelandy",
+          "lastName": "Jean",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1305104,
+        "employeeNameData": {
+          "loginName": "535066",
+          "firstName": "Carlos",
+          "lastName": "Rodriguez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1305775,
+        "employeeNameData": {
+          "loginName": "535610",
+          "firstName": "Jalecia",
+          "lastName": "Hill",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1307134,
+        "employeeNameData": {
+          "loginName": "537137",
+          "firstName": "Guadalupe",
+          "lastName": "Morales Avellaneda",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1308251,
+        "employeeNameData": {
+          "loginName": "538224",
+          "firstName": "Daryl",
+          "lastName": "Francois",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1308257,
+        "employeeNameData": {
+          "loginName": "538233",
+          "firstName": "Juan",
+          "lastName": "Rivadeneira",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311282,
+        "employeeNameData": {
+          "loginName": "540988",
+          "firstName": "Jose",
+          "lastName": "Vasquez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311283,
+        "employeeNameData": {
+          "loginName": "541405",
+          "firstName": "Dgeordgy",
+          "lastName": "Laborde",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311303,
+        "employeeNameData": {
+          "loginName": "541040",
+          "firstName": "Obed",
+          "lastName": "Velasquez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1311304,
+        "employeeNameData": {
+          "loginName": "541189",
+          "firstName": "Nelson",
+          "lastName": "Abarca",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1313272,
+        "employeeNameData": {
+          "loginName": "543270",
+          "firstName": "Gregory",
+          "lastName": "Desty",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1312726,
+        "employeeNameData": {
+          "loginName": "542775",
+          "firstName": "Rovinzon",
+          "lastName": "Aldana Diaz",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1313028,
+        "employeeNameData": {
+          "loginName": "542946",
+          "firstName": "Alissa",
+          "lastName": "Casseus",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1312827,
+        "employeeNameData": {
+          "loginName": "542782",
+          "firstName": "Kwon",
+          "lastName": "Rumpasard",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1313860,
+        "employeeNameData": {
+          "loginName": "543839",
+          "firstName": "Geoffrey",
+          "lastName": "Santana Arce",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1312480,
+        "employeeNameData": {
+          "loginName": "542492",
+          "firstName": "Shamar",
+          "lastName": "Blair",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1313452,
+        "employeeNameData": {
+          "loginName": "543422",
+          "firstName": "Markenzie",
+          "lastName": "Emile",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1309655,
+        "employeeNameData": {
+          "loginName": "539552",
+          "firstName": "Jayden",
+          "lastName": "Mack",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310744,
+        "employeeNameData": {
+          "loginName": "540737",
+          "firstName": "Robert",
+          "lastName": "Gibson",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1313818,
+        "employeeNameData": {
+          "loginName": "543736",
+          "firstName": "Jesus",
+          "lastName": "Hernandez Villegas",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1124523,
+        "employeeNameData": {
+          "loginName": "293526",
+          "firstName": "Clotilde",
+          "lastName": "Cius",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000371,
+        "jobName": "Warehouse Operations Lead"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1050545,
+        "employeeNameData": {
+          "loginName": "220990",
+          "firstName": "Nikia",
+          "lastName": "Daniels",
+          "middleName": "H",
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000371,
+        "jobName": "Warehouse Operations Lead"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1310891,
+        "employeeNameData": {
+          "loginName": "540752",
+          "firstName": "Aryn",
+          "lastName": "Tallman",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000414,
+        "jobName": "Selection - Perishable Transfer"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1074166,
+        "employeeNameData": {
+          "loginName": "243883",
+          "firstName": "Maritza",
+          "lastName": "Carrero Medina",
+          "middleName": null,
+          "nickName": "Maritza",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000422,
+        "jobName": "ICT Transfer"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1103879,
+        "employeeNameData": {
+          "loginName": "273020",
+          "firstName": "Migmary",
+          "lastName": "Calderon Fernandez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000422,
+        "jobName": "ICT Transfer"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1172250,
+        "employeeNameData": {
+          "loginName": "405499",
+          "firstName": "Atul",
+          "lastName": "Karnwal",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000422,
+        "jobName": "ICT Transfer"
+      }
+    },
+    {
+      "startTime": "2024-10-07T07:00:00",
+      "employee": {
+        "employeeId": 1180500,
+        "employeeNameData": {
+          "loginName": "412000",
+          "firstName": "Jeremy",
+          "lastName": "Rathe",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000422,
+        "jobName": "ICT Transfer"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1123872,
+        "employeeNameData": {
+          "loginName": "293427",
+          "firstName": "Gilberto",
+          "lastName": "Torres",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1190875,
+        "employeeNameData": {
+          "loginName": "422009",
+          "firstName": "Maria",
+          "lastName": "Diaz Ardila",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1196510,
+        "employeeNameData": {
+          "loginName": "427247",
+          "firstName": "Marina",
+          "lastName": "Mirabella",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1196626,
+        "employeeNameData": {
+          "loginName": "427444",
+          "firstName": "Stanley",
+          "lastName": "Clark",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1201806,
+        "employeeNameData": {
+          "loginName": "432354",
+          "firstName": "Brayan",
+          "lastName": "Melo",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1247125,
+        "employeeNameData": {
+          "loginName": "477261",
+          "firstName": "Kadeem",
+          "lastName": "Foster",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1247211,
+        "employeeNameData": {
+          "loginName": "477263",
+          "firstName": "Juan",
+          "lastName": "Ladino",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1253340,
+        "employeeNameData": {
+          "loginName": "483149",
+          "firstName": "Cristian",
+          "lastName": "Rodas",
+          "middleName": null,
+          "nickName": "Paul",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1257655,
+        "employeeNameData": {
+          "loginName": "487625",
+          "firstName": "Hugo",
+          "lastName": "Benitez",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1271602,
+        "employeeNameData": {
+          "loginName": "501662",
+          "firstName": "Claudeson",
+          "lastName": "Azurin",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1281007,
+        "employeeNameData": {
+          "loginName": "511102",
+          "firstName": "Edwin",
+          "lastName": "Canas Garcia",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1126932,
+        "employeeNameData": {
+          "loginName": "296640",
+          "firstName": "Baby",
+          "lastName": "Pierre",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1133418,
+        "employeeNameData": {
+          "loginName": "311794",
+          "firstName": "David",
+          "lastName": "LaTouche",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1280722,
+        "employeeNameData": {
+          "loginName": "510733",
+          "firstName": "Victor",
+          "lastName": "Saravia",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1279609,
+        "employeeNameData": {
+          "loginName": "509770",
+          "firstName": "Yaisel",
+          "lastName": "Carmona",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1279377,
+        "employeeNameData": {
+          "loginName": "509566",
+          "firstName": "Freddy",
+          "lastName": "Pierre-Paul",
+          "middleName": null,
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1287708,
+        "employeeNameData": {
+          "loginName": "517891",
+          "firstName": "Jean",
+          "lastName": "Saint Vil",
+          "middleName": null,
+          "nickName": "Adrien",
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    },
+    {
+      "startTime": "2024-10-07T08:00:00",
+      "employee": {
+        "employeeId": 1126934,
+        "employeeNameData": {
+          "loginName": "296637",
+          "firstName": "William",
+          "lastName": "Cook",
+          "middleName": "P.",
+          "nickName": null,
+          "suffix": null,
+          "title": ""
+        }
+      },
+      "position": {
+        "jobId": 1000127,
+        "jobName": "Dry Sel"
+      }
+    }
+  ]
+}
