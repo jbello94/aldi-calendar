@@ -66,7 +66,8 @@
     <script>
         const initialMileage = 79243; // Millaje inicial en 1 de febrero de 2024
         const dailyMileage = 12000 / 365; // Millas diarias estimadas
-        let currentDate = new Date(2024, 1, 1); // Empieza en febrero 2024
+        let currentDate = new Date(); // Empieza en el mes actual
+
         let mileageHistory = [];
 
         // Función para cargar el historial desde localStorage
@@ -116,6 +117,8 @@
                 const daysSinceStart = Math.floor((currentDay - new Date(2024, 1, 1)) / (1000 * 60 * 60 * 24));
                 const expectedMileage = initialMileage + daysSinceStart * dailyMileage;
 
+                cell.textContent += `\n(Expected: ${expectedMileage.toFixed(0)} miles)`;
+
                 // Verificar si hay millaje guardado
                 const entry = mileageHistory.find(e => e.year === year && e.month === month + 1 && e.day === day);
                 if (entry) {
@@ -125,7 +128,7 @@
                     } else {
                         cell.classList.add('green'); // Menos millas de las previstas
                     }
-                    cell.textContent += ` (${actualMileage})`;
+                    cell.textContent += `\n(Actual: ${actualMileage})`;
                 }
 
                 row.appendChild(cell);
