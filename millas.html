@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Mileage Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .month-nav {
+            margin: 20px 0;
+        }
+        .month-nav button {
+            padding: 10px 15px;
+            margin: 0 10px;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .green {
+            background-color: lightgreen;
+        }
+        .red {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Car Mileage Tracker</h1>
+    <div class="month-nav">
+        <button onclick="prevMonth()">Previous Month</button>
+        <span id="month-year"></span>
+        <button onclick="nextMonth()">Next Month</button>
+    </div>
+
+    <table id="calendar">
+        <thead>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <input type="number" id="mileage-input" placeholder="Enter current mileage">
+    <button onclick="addMileage()">Add Mileage</button>
+
+    <script>
+        const initialMileage = 79243; // Millaje inicial en 1 de febrero de 2024
+        const dailyMileage = 12000 / 365; // Millas diarias estimadas
+        let currentDate = new Date(2024, 1, 1); // Empieza en febrero 2024
+        let mileageHistory = [];
+
+        // Función para cargar el historial desde localStorage
+        function loadMileageHistory() {
+            const storedHistory = localStorage.getItem('mileageHistory');
+            if (storedHistory) {
+                mileageHistory = JSON.parse(storedHistory);
+            } else {
+                mileageHistory = [];
+            }
+            createCalendar(); // Crear el calendario una vez que se carga el historial
+        }
+
+        // Guardar el historial en localStorage
+        function saveMileageHistory() {
+            localStorage.setItem('mileageHistory', JSON.stringify(mileageHistory));
+        }
+
+        // Mostrar el mes y año actuales
+        function showMonthYear() {
+            const monthNames = ["January", "February", "March", "April", "May", "June", 
+                                "July", "August", "September", "October", "November", "December"];
+            document.getElementById("month-year").textContent = monthNames[currentDate.getMonth()] + " " + currentDate.getFullYear();
+        }
+
+        // Crear el calendario para el mes actual
+        function createCalendar() {
+            const calendarBody = document.querySelector("#calendar tbody");
+            calendarBody.innerHTML = ''; // Limpiar el calendario
+
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+            let row = document.createElement('tr');
+            for (let i = 0; i < firstDay; i++) {
+                row.appendChild(document.createElement('td')); // Días vacíos antes del 1
+            }
+
+            for (let day = 1; day <= daysInMonth; day++) {
+                const cell = document.createElement('td');
+                cell.textContent = day;
+
+                // Calcular millaje estimado para el día
+                const currentDay = new Date(year, month, day);
+                const daysSinceStart = Math.floor((currentDay - new Date(2024, 1, 1)) / (1000 * 60 * 60 * 24));
+                const expectedMileage = initialMileage + daysSinceStart * dailyMileage;
+
+                // Verificar si hay millaje guardado
+                const entry = mileageHistory.find(e => e.year === year && e.month === month + 1 && e.day === day);
+                if (entry) {
+                    const actualMileage = entry.mileage;
+                    if (actualMileage >= expectedMileage) {
+                        cell.classList.add('red'); // Más millas de las previstas
+                    } else {
+                        cell.classList.add('green'); // Menos millas de las previstas
+                    }
+                    cell.textContent += ` (${actualMileage})`;
+                }
+
+                row.appendChild(cell);
+
+                if ((firstDay + day) % 7 === 0 || day === daysInMonth) {
+                    calendarBody.appendChild(row);
+                    row = document.createElement('tr');
+                }
+            }
+        }
+
+        function prevMonth() {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            showMonthYear();
+            createCalendar();
+        }
+
+        function nextMonth() {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            showMonthYear();
+            createCalendar();
+        }
+
+        function addMileage() {
+            const mileageInput = document.getElementById("mileage-input").value;
+            if (mileageInput === '') return;
+
+            const day = prompt("Enter the day of the month you are adding mileage for:");
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth() + 1;
+
+            const newEntry = {
+                year: year,
+                month: month,
+                day: Number(day),
+                mileage: Number(mileageInput)
+            };
+
+            mileageHistory.push(newEntry); // Agregar la nueva entrada al historial
+            saveMileageHistory(); // Guardar el historial actualizado en localStorage
+            createCalendar(); // Refrescar el calendario
+        }
+
+        // Iniciar el calendario y cargar el historial
+        showMonthYear();
+        loadMileageHistory(); // Cargar el historial al cargar la página
+    </script>
+
+</body>
+</html>
